@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaProjector", "MediaProjector\MediaProjector.csproj", "{B4EEB707-C3B8-408C-9320-0AFA829D0A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{B8BE709F-0709-4FB0-BEFB-D15DA6BFFAA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4EEB707-C3B8-408C-9320-0AFA829D0A9A}.Debug|x86.ActiveCfg = Debug|x86
+		{B4EEB707-C3B8-408C-9320-0AFA829D0A9A}.Debug|x86.Build.0 = Debug|x86
+		{B4EEB707-C3B8-408C-9320-0AFA829D0A9A}.Release|x86.ActiveCfg = Release|x86
+		{B4EEB707-C3B8-408C-9320-0AFA829D0A9A}.Release|x86.Build.0 = Release|x86
+		{B8BE709F-0709-4FB0-BEFB-D15DA6BFFAA1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B8BE709F-0709-4FB0-BEFB-D15DA6BFFAA1}.Debug|x86.Build.0 = Debug|Any CPU
+		{B8BE709F-0709-4FB0-BEFB-D15DA6BFFAA1}.Release|x86.ActiveCfg = Release|Any CPU
+		{B8BE709F-0709-4FB0-BEFB-D15DA6BFFAA1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

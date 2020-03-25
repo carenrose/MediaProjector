@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="../bin/Debug/MediaProjector.exe" internal="true" />
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+  </import>
+  <icon-factory>
+    <icon-set id="standard_icons">
+      <source>
+        <property name="Image">stock:gtk-cancel Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-dialog-info Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-dialog-warning Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-floppy Dialog</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-ok Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-paste Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-add Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-copy Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-apply Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-cancel Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-cut Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-close Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-delete Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-dialog-error Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-dialog-question Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-edit Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-file Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-media-play Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-media-stop Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-open Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-save-as Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-sort-descending Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-sort-ascending Menu</property>
+      </source>
+      <source>
+        <property name="Image">stock:gtk-yes Menu</property>
+      </source>
+    </icon-set>
+  </icon-factory>
+  <widget class="Gtk.Window" id="MainWindow" design-size="732 488">
+    <action-group name="Default" />
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">3</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox2">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.VBox" id="vbox3">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.MenuBar" id="menubar2">
+                <property name="MemberName" />
+                <node name="__gtksharp_159_Stetic_Editor_ActionMenuBar" type="Menubar" />
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Toolbar" id="toolbar1">
+                <property name="MemberName" />
+                <property name="ShowArrow">False</property>
+                <node name="__gtksharp_160_Stetic_Editor_ActionToolbar" type="Toolbar" />
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.HPaned" id="hpaned3">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Position">153</property>
+            <child>
+              <widget class="Gtk.Notebook" id="notebook2">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="CurrentPage">0</property>
+                <child>
+                  <placeholder />
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="label2">
+                    <property name="MemberName" />
+                    <property name="LabelProp" translatable="yes">page1</property>
+                  </widget>
+                  <packing>
+                    <property name="type">tab</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Resize">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.HPaned" id="hpaned4">
+                <property name="MemberName" />
+                <property name="CanFocus">True</property>
+                <property name="Position">356</property>
+                <child>
+                  <widget class="Gtk.ScrolledWindow" id="scrolledwindow3">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="ShadowType">In</property>
+                    <child>
+                      <widget class="Gtk.Viewport" id="GtkViewport">
+                        <property name="MemberName" />
+                        <property name="ShadowType">None</property>
+                        <child>
+                          <placeholder />
+                        </child>
+                      </widget>
+                    </child>
+                  </widget>
+                  <packing>
+                    <property name="Resize">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.VBox" id="vbox4">
+                    <property name="MemberName" />
+                    <property name="Spacing">6</property>
+                    <child>
+                      <widget class="Gtk.Button" id="btnTest">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">GtkButton</property>
+                        <property name="UseUnderline">True</property>
+                        <signal name="Clicked" handler="TestButtonClick" />
+                      </widget>
+                      <packing>
+                        <property name="Position">0</property>
+                        <property name="AutoSize">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <placeholder />
+                    </child>
+                  </widget>
+                </child>
+              </widget>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Statusbar" id="statusbar1">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <placeholder />
+            </child>
+            <child>
+              <placeholder />
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">2</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Dialog" id="MediaProjector.AboutDialog" design-size="400 300">
+    <property name="MemberName" />
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="Buttons">1</property>
+    <property name="HelpButton">False</property>
+    <child internal-child="VBox">
+      <widget class="Gtk.VBox" id="dialog1_VBox">
+        <property name="MemberName" />
+        <property name="BorderWidth">2</property>
+        <child>
+          <widget class="Gtk.IconView" id="iconview1">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+    <child internal-child="ActionArea">
+      <widget class="Gtk.HButtonBox" id="dialog1_ActionArea">
+        <property name="MemberName" />
+        <property name="Spacing">10</property>
+        <property name="BorderWidth">5</property>
+        <property name="Size">1</property>
+        <property name="LayoutStyle">End</property>
+        <child>
+          <widget class="Gtk.Button" id="buttonOk">
+            <property name="MemberName" />
+            <property name="CanDefault">True</property>
+            <property name="CanFocus">True</property>
+            <property name="UseStock">True</property>
+            <property name="Type">StockItem</property>
+            <property name="StockId">gtk-ok</property>
+            <property name="ResponseId">-5</property>
+            <property name="label">gtk-ok</property>
+          </widget>
+          <packing>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+  <widget class="Gtk.Window" id="MediaProjector.DisplayWindow" design-size="400 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">DisplayWindow</property>
+    <property name="TypeHint">Utility</property>
+    <property name="Resizable">False</property>
+    <child>
+      <widget class="Gtk.Label" id="label3">
+        <property name="MemberName" />
+        <property name="LabelProp" translatable="yes">label3</property>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>
